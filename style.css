@@ -31,7 +31,7 @@ h3, h5, label, .p-tel, footer, section, p {
 #wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    max-width: 400px;
+    max-width: 380px;
     margin: 0 auto;
     grid-auto-rows: 100px, auto;
 }
@@ -46,11 +46,11 @@ h3, h5, label, .p-tel, footer, section, p {
     justify-content: flex-end;    
     margin-top: 10px;
     margin-right: 10px;
+    margin: 12px 30px 0 0;
 }
 
 .btn-signin{
-    width: 100px;
-    height: 40px;  
+    padding: 8px 27px;
     margin-left: 5px;
 }
 
@@ -73,6 +73,9 @@ input{
     border: 1px solid #bebdbd;
     border-radius: 4px;
     width: 100%;
+    text-align: start;
+    outline: none;
+    
 }
 .p-tel{
     text-align: start;
@@ -93,6 +96,18 @@ input{
     border-radius: 4px;
 }
 
-.header-img {
-    max-width: 390px;
+.header {
+    max-width: 380px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    margin: 0 5px;
+}
+
+footer p {
+    margin-top: 10px;
 }
