@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intuit Accounts - Sign Up</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/867f1dd431.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <nav id="container">
       <div class="flex-box nav-line" >
             Already have an Intuit account? <br>
-            <a href=""> I forgot my User ID or Password </a>
+            <a href="" class="nav-lebel"> I forgot my User ID or Password </a>
       </div>
       <div class="flex-box">
         <button class="btn-signin">
+          <i class="fas fa-lock"></i>  
           Sign In
         </button>
     </div>
@@ -38,13 +41,7 @@
           </h5>
           <a href="">
               Learn more
-          </a>
-          <p>
-              Already have an account? 
-              <a href="">
-                  Sign in
-              </a>
-          </p>
+          </a>          
         </div>
       <form >
         <div class="email box">
@@ -72,19 +69,19 @@
 
         <div>
             <button type="submit" class="btn-submit">
-                Create Account
+              <i class="fas fa-lock"></i>
+              Create Account
             </button>
         </div>
     </form>
     <section>
-        <div>
-            <p>
-                By clicking Create account, you agree to our <a href=""> Terms </a> and have read and acknowledge our
-                <a href=""> Privacy Statement</a>.
-            </p>
+        <div >
+            <p class="privacy-statement">By clicking Create account, you agree to our </p>
+            <p class="privacy-statement"> <a href=""> Terms </a> and have read and acknowledge our<a href=""> Privacy</a> </p>                
+            <p class="privacy-statement"> <a href=""> Statement</a>.</p>              
         </div>
 
-        <div>
+        <div class="term-policy">
             Invisible reCAPTHCA by Google <a href=""> Privacy Policy </a> and <a href=""> Terms of Use</a>.
         </div>
     </section>
@@ -93,13 +90,13 @@
 
     <footer>
 
-        <a href="">
+        <a href="" >
             Legal
         </a>
-        <a href="">
+        <a href="" >
           Privacy
       </a>
-      <a href="">
+      <a href="" >
           Security
       </a>
       <p>
