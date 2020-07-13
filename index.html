@@ -43,17 +43,24 @@
               Learn more
           </a>          
         </div>
-      <form >
-        <div class="email box">
+      <form action="#" method="POST">
+        <div class="email box tooltip">
               <label for="email">Email address</label> 
               <input type="email" name="email" id="email" required>
+              <span class="tooltip-text">
+                  You'll use this as your user ID
+              </span>
         </div>
 
-        <div class="box">
+        <div class="box tooltip">
             <label for="phone-number">
                 Phone (recommended)
             </label>
             <input type="tel" name="tel" id="phone-number">
+            <span class="tooltip-text">
+                We strongly recommended adding a phone number. 
+                This will help very your account and keep it safe.
+            </span>
             <p class="p-tel">
                 Standard call, messaging or data rates may apply.
             </p>
@@ -63,8 +70,13 @@
             <label for="pass">
                 Password
             </label>
-           
+           <span class="tooltip">
             <input type="password" name="password" id="pass">
+            <span class="tooltip-text">
+                Create a password you've never used before. This will
+                help keep your account safe.
+            </span>
+        </span>
             <i class="fas fa-unlock"></i>
         </div>
 

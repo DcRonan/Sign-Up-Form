@@ -173,4 +173,28 @@ input:focus {
     margin: 57px 0 0 355px;
     top: 0;
     bottom: 0;
+
+}
+
+.tooltip {
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    text-align: center;
+    border-radius: 2px;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    margin: 3px 0 0 10px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 12px;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
 }
