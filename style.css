@@ -1,158 +1,176 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 body {
-    background:#ECEEF1;
-    font-family: "AvenirNext", sans-serif;
+  background: #eceef1;
+  font-family: "AvenirNext", sans-serif;
 }
 
-a{
-    color: #0077C5;
-    text-decoration: none;  
+a {
+  color: #0077c5;
+  text-decoration: none;
 }
-h3{
-    margin-top: 20px;
-    font-size: 25px;
-    font-weight: 500;  
-  
+h3 {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
 }
-h5{
-    margin-top: 18px;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-h3, h5, label, .p-tel, footer, section, p {
-    color:#4C4C4C;
+h5 {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-main{
-    border:1px solid darkgray;
+h3,
+h5,
+label,
+.p-tel,
+footer,
+section,
+p {
+  color: #4c4c4c;
+}
+
+main {
+  border: 1px solid darkgray;
 }
 
 #wrapper {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 380px;
-    margin: 0 auto;
-    grid-auto-rows: 100px, auto;
-   
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 380px;
+  margin: 0 auto;
+  grid-auto-rows: 100px, auto;
 }
 
 #wrapper div {
-    background-color: white;
-    padding: 20px;
-  
+  background-color: white;
+  padding: 20px;
 }
 
-#container{
-    display: flex;
-    justify-content: flex-end;    
-    margin-top: 10px;
-    margin-right: 10px;
-    margin: 12px 30px 0 0;
+#container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin: 12px 30px 0 0;
 }
 
-.btn-signin{
-    padding: 8px 20px;
-    margin-left: 5px; 
-
+.btn-signin {
+  padding: 8px 20px;
+  margin-left: 5px;
 }
 
-.nav-line{
-    font-size: 12px;
-    font-weight: lighter;
-    padding: 5px;
-}
-   
-
-.nav-lebel{
-    margin-top: 15px;
+.nav-line {
+  font-size: 12px;
+  font-weight: lighter;
+  padding: 5px;
 }
 
-.box{
-    display: grid;
-    grid-template-rows: 1fr ;
-    
-}
-label{
-    text-align: start;
-   font-weight: 500;
-   font-size: 16px;
-  
-}
-input{
-    height: 30px;
-    border: 1px solid #bebdbd;
-    border-radius: 4px;
-    width: 100%;
-    text-align: start;
-    outline: none;
-    
-}
-.p-tel{
-    text-align: start;
-    font-weight: 500;
-    font-size: 10px;
-    margin-top: 5px;
+.nav-lebel {
+  margin-top: 15px;
 }
 
-.btn-submit{
-    height: 50px;
-    width: 360px;      
+.box {
+  display: grid;
+  grid-template-rows: 1fr;
+  width: 100%;
+  position: relative;
 }
 
-.btn-signin, .btn-submit{
-    background-color: #0077C5;
-    color: white;
-    border: 1px solid black;
-    border-radius: 4px;    
-    cursor: pointer;
+label {
+  text-align: start;
+  font-weight: 500;
+  font-size: 16px;
+  width: 90%;
+}
+
+input {
+  height: 30px;
+  border: 1px solid #bebdbd;
+  border-radius: 4px;
+  width: 100%;
+  text-align: start;
+  outline: none;
+  margin-top: 10px;
+  padding: 16px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.p-tel {
+  text-align: start;
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.btn-submit {
+  height: 50px;
+  width: 360px;
+}
+
+.btn-signin,
+.btn-submit {
+  background-color: #0077c5;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .header {
-    max-width: 380px;
+  max-width: 380px;
 }
 
 footer {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 footer a {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 footer p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-.privacy-statement{
-    font-size: 13px;
-    margin-top: 5px;    
-    font-style: italic;
+.privacy-statement {
+  font-size: 13px;
+  margin-top: 5px;
+  font-style: italic;
 }
 
-.term-policy{
- font-size: 10px;
- background-color:#ECEEF1!important; 
+.term-policy {
+  font-size: 10px;
+  background-color: #eceef1 !important;
 }
 
-.privacy-statement, .term-policy{
-    color: rgb(167, 163, 163);
+.privacy-statement,
+.term-policy, .fa-unlock {
+  color: rgb(167, 163, 163);
 }
 
-.fas{
-    margin-right: 5px;
+.fas {
+  margin-right: 5px;
 }
 
-#email, #phone-number, #pass{
-    margin-top: 10px;
+footer p,
+footer a {
+  color: rgb(104, 102, 102);
 }
 
-footer  p, footer  a {
-    color: rgb(104, 102, 102);
+input:focus {
+    box-shadow: 0 0 6px rgb(33, 170, 228);
+}
+
+.fa-unlock {
+    position: absolute;
+    margin: 57px 0 0 355px;
+    top: 0;
+    bottom: 0;
 }
