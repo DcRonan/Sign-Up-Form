@@ -6,7 +6,26 @@
 }
 
 body {
-    background-color: rgb(220, 220, 220);
+    background:#ECEEF1;
+}
+
+a{
+    color: #0077C5;
+    text-decoration: none;  
+}
+h3{
+    font-size: 27px;
+    font-weight: 500;  
+  
+}
+h5{
+    margin-top: 10px;
+    font-size: 16px;
+    
+}
+
+h3, h5, label,p-tel{
+    color:#4C4C4C;
 }
 
 #wrapper {
@@ -20,4 +39,55 @@ body {
 #wrapper div {
     background-color: white;
     padding: 20px;
+}
+
+#container{
+    display: flex;
+    justify-content: flex-end;    
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.btn-signin{
+    width: 100px;
+    height: 40px;  
+    margin-left: 5px;
+}
+
+.nav-line{
+    font-size: 14px;
+}
+
+.box{
+    display: grid;
+    grid-template-rows: 1fr ;
+    
+}
+label{
+    text-align: start;
+   font-weight: 500;
+  
+}
+input{
+    height: 30px;
+    border: 1px solid #bebdbd;
+    border-radius: 4px;
+}
+.p-tel{
+    text-align: start;
+    font-weight: 500;
+    
+}
+
+.btn-submit{
+    height: 50px;
+    width: 360px;
+   
+}
+
+.btn-signin, .btn-submit{
+    background-color: #0077C5;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
 }

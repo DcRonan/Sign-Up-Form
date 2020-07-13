@@ -8,12 +8,12 @@
   </head>
   <body>
     <nav id="container">
-      <div class="flex-box">
+      <div class="flex-box nav-line" >
             Already have an Intuit account? <br>
             <a href=""> I forgot my User ID or Password </a>
       </div>
       <div class="flex-box">
-        <button>
+        <button class="btn-signin">
           Sign In
         </button>
     </div>
@@ -43,32 +43,32 @@
               </a>
           </p>
         </div>
-      <form>
-        <div class="email">
-              <label for="email">Email address</label> <br>
+      <form >
+        <div class="email box">
+              <label for="email">Email address</label> 
               <input type="email" name="email" id="email" required>
         </div>
 
-        <div>
+        <div class="box">
             <label for="phone-number">
                 Phone (recommended)
-            </label> <br>
+            </label>
             <input type="tel" name="tel" id="phone-number">
-            <p>
+            <p class="p-tel">
                 Standard call, messaging or data rates may apply.
             </p>
         </div>
 
-        <div>
+        <div class="box">
             <label for="pass">
                 Password
             </label>
-            <br>
+           
             <input type="password" name="password" id="pass">
         </div>
 
         <div>
-            <button type="submit">
+            <button type="submit" class="box btn-submit">
                 Create Account
             </button>
         </div>
