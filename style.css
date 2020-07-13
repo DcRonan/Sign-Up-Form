@@ -198,3 +198,23 @@ input:focus {
 .tooltip:hover .tooltip-text {
   visibility: visible;
 }
+
+@media (max-width: 646px) {
+
+    .tooltip .tooltip-text {
+        visibility: hidden;
+        text-align: center;
+        border-radius: 2px;
+        background-color: rgb(67, 67, 67);
+        color: white;
+        position: absolute;
+        z-index: 1;
+        padding: 3px;
+        margin: 50px 0 0 -240px;
+        border-radius: 5px;
+        width: 120px;
+        font-size: 12px;
+        
+      }
+
+}
