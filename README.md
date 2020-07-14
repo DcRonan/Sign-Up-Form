@@ -4,14 +4,14 @@
 
 <img src="images/sign-up-page.png">
 
-## Live Demo
-
-[Sign Up form](https://raw.githack.com/DcRonan/Sign-Up-Form/feature1/index.html)
-
 ## Built With
 
 - HTML
 - CSS
+
+## Live Demo
+
+[Sign Up form](https://dcronan.github.io/Sign-Up-Form/)
 
 ## Authors
 
