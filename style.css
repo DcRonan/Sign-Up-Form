@@ -8,7 +8,7 @@
 body {
   background: #eceef1;
   font-family: "AvenirNext", sans-serif;
-  overflow: hidden;
+  overflow: auto;
 }
 
 a {
@@ -40,6 +40,7 @@ p {
 
 main {
   border: 1px solid darkgray;
+  margin-top: 20px;
 }
 
 #wrapper {
@@ -48,6 +49,15 @@ main {
   max-width: 380px;
   margin: 0 auto;
   grid-auto-rows: 100px auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column; /* CSS for header images */
+}
+
+.header-img {
+  margin-bottom: -10px;
 }
 
 #wrapper div {
@@ -153,7 +163,8 @@ footer p {
 
 .term-policy {
   font-size: 10px;
-  background-color: #eceef1 !important;
+  background-color: #eceef1;
+  padding: 20px;
 }
 
 .privacy-statement,
