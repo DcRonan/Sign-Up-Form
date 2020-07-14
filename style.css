@@ -184,15 +184,14 @@ footer a {
   margin-top: 5px;
 }
 
-input:focus {
-  box-shadow: 0 0 6px rgb(33, 170, 228);
+.lock-icon {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
 }
 
-.fa-unlock {
-  position: absolute;
-  margin: 57px 0 0 355px;
-  top: 0;
-  bottom: 0;
+input:focus {
+  box-shadow: 0 0 6px rgb(33, 170, 228);
 }
 
 .tooltip {
