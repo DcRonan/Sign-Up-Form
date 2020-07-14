@@ -129,7 +129,12 @@ input {
 }
 
 footer {
-  margin-top: 20px;
+  margin: 20px auto;
+  max-width: 750px;
+  min-width: 390px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 footer a {
@@ -161,10 +166,6 @@ footer p {
   margin-right: 5px;
 }
 
-footer {
-  margin-bottom: 20px;
-}
-
 footer p,
 footer a {
   color: rgb(78, 77, 77);
@@ -183,8 +184,6 @@ input:focus {
   bottom: 0;
 }
 
-/* Tooltip START */
-
 .tooltip {
   display: inline-block;
 }
@@ -192,7 +191,6 @@ input:focus {
 .tooltip .tooltip-text {
   visibility: hidden;
   text-align: center;
-  border-radius: 2px;
   background-color: rgb(67, 67, 67);
   color: white;
   position: absolute;
@@ -212,7 +210,6 @@ input:focus {
   .tooltip .tooltip-text {
     visibility: hidden;
     text-align: center;
-    border-radius: 2px;
     background-color: rgb(67, 67, 67);
     color: white;
     position: absolute;
@@ -221,17 +218,6 @@ input:focus {
     margin: 50px 0 0 -240px;
     border-radius: 5px;
     width: 120px;
-    font-size: 12px;
+    font-size: 12px; 
   }
-}
-
-/* Tooltip END */
-
-footer {
-  margin: 0 auto;
-  max-width: 750px;
-  min-width: 390px;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
 }
