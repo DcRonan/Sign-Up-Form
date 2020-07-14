@@ -2,7 +2,7 @@
 
 > In this project we created a clone of [mint.com](https://www.mint.com/)'s sign up form.
 
-You can check our live demo here: [mint.com sign up form](https://raw.githack.com/DcRonan/Sign-Up-Form/feature1/index.html)
+You can check our live demo here: [Sign Up form](https://raw.githack.com/DcRonan/Sign-Up-Form/feature1/index.html)
 
 <img src="images/sign-up-page.png">
 
