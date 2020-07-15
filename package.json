@@ -1,0 +1,23 @@
+{
+  "name": "sign-up-form",
+  "version": "1.0.0",
+  "description": "> In this project we created a clone of [mint.com](https://www.mint.com/)'s sign up form.",
+  "main": "index.js",
+  "dependencies": {
+    "hint": "^6.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"all tests passed.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DcRonan/Sign-Up-Form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DcRonan/Sign-Up-Form/issues"
+  },
+  "homepage": "https://github.com/DcRonan/Sign-Up-Form#readme"
+}
