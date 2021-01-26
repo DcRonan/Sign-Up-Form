@@ -1,6 +1,6 @@
 # HTML & CSS: Displaying and Inputting Data
 
-> In this project we created a clone of [mint.com](https://www.mint.com/)'s sign up form.
+> In this project, we created a clone of [mint.com](https://www.mint.com/)'s sign up form.
 
 <img src="images/sign-up-page.png">
 
